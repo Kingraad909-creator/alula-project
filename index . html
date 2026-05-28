@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بوابة العلا السياحية</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>موقع العلا السياحي</h1>
+        <p>اكتشف تاريخ الحضارات في قلب المملكة</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">الرئيسية</a></li>
+            <li><a href="places.html">معالم العلا</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero-section">
+            <h2>مرحباً بكم في العلا</h2>
+            <p>مدينة العلا هي وجهة تاريخية واستثنائية تقع شمال غرب المملكة العربية السعودية، وتتميز بطبيعتها الجبلية الساحرة وتاريخها العريق الذي يعود لآلاف السنين.</p>
+        </section>
+
+        <section class="info-boxes">
+            <div class="box">
+                <h3>تاريخ عريق</h3>
+                <p>تضم العلا مواقع أثرية تعود إلى الحضارتين الدادانية والنبطية.</p>
+            </div>
+            <div class="box">
+                <h3>طبيعة خلابة</h3>
+                <p>تتميز بالتكوينات الصخرية الفريدة والواحات الخضراء وسط الصحراء.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; مشروع مادة تصميم المواقع - 2026</p>
+    </footer>
+
+</body>
+</html>
