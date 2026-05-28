@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معالم العلا</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>أبرز معالم العلا</h1>
+        <p>أماكن لا بد من زيارتها</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="places.html" class="active">معالم العلا</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="gallery">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1628522934149-f542472d8fc8?w=500" alt="الحجر">
+                <h3>موقع الحجر (مدائن صالح)</h3>
+                <p>أول موقع سعودي يدرج ضمن قائمة التراث العالمي لليونسكو، ويضم مقابر نبطية منحوتة في الصخور بدقة متناهية.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1678107574712-4ee3729e92d7?w=500" alt="جبل الفيل">
+                <h3>جبل الفيل</h3>
+                <p>كتلة صخرية مذهلة تشكلت بفعل عوامل الحت والتعرية على مدى ملايين السنين لتشبه فيلاً ضخماً.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1655294576135-24e5482f6fbf?w=500" alt="قاعة مرايا">
+                <h3>قاعة مرايا</h3>
+                <p>أكبر مبنى عاكس في العالم، يدمج بين الهندسة المعمارية الحديثة وسحر الطبيعة الصحراوية المحيطة به.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; مشروع مادة تصميم المواقع - 2026</p>
+    </footer>
+
+</body>
+</html>
