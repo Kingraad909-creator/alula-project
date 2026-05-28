@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل معنا</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>تواصل معنا</h1>
+        <p>يسعدنا استقبال استفساراتكم حول السياحة في العلا</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="places.html">معالم العلا</a></li>
+            <li><a href="contact.html" class="active">تواصل معنا</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="form-container">
+            <h2>نموذج الإستفسار</h2>
+            <form action="#" method="POST" onsubmit="alert('تم إرسال رسالتك بنجاح!'); return false;">
+                
+                <div class="form-group">
+                    <label for="name">الاسم الكريم:</label>
+                    <input type="text" id="name" name="name" required placeholder="أدخل اسمك هنا">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني:</label>
+                    <input type="email" id="email" name="email" required placeholder="example@mail.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">نص الرسالة:</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="اكتب استفسارك هنا..."></textarea>
+                </div>
+
+                <button type="submit" class="btn">إرسال الآن</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; مشروع مادة تصميم المواقع - 2026</p>
+    </footer>
+
+</body>
+</html>
