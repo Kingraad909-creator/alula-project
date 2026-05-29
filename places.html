@@ -6,27 +6,26 @@
     <title>معالم العلا</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        /* تنسيق طوارئ مباشر لإجبار المتصفح على عرض الصور الحقيقية بالترتيب الصحيح */
+        /* تنسيق مدمج لضمان ترتيب الصور والكروت بشكل مثالي */
         .gallery {
             display: flex;
             flex-direction: column;
-            gap: 30px;
+            gap: 25px;
             padding: 20px;
-            max-width: 1000px;
+            max-width: 900px;
             margin: 0 auto;
         }
         .card {
             display: flex;
-            background: #fff;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
             overflow: hidden;
             align-items: center;
-            direction: rtl;
         }
         .card img {
             width: 40% !important;
-            height: 250px !important;
+            height: 220px !important;
             object-fit: cover !important;
             display: block !important;
         }
@@ -35,14 +34,15 @@
             width: 60%;
         }
         .card-content h3 {
-            margin-top: 0;
+            margin: 0 0 10px 0;
             color: #b37d4e;
-            font-size: 22px;
+            font-size: 20px;
         }
         .card-content p {
             color: #555;
             line-height: 1.6;
-            font-size: 16px;
+            font-size: 15px;
+            margin: 0;
         }
         @media (max-width: 768px) {
             .card { flex-direction: column; }
@@ -70,7 +70,7 @@
         <div class="gallery">
             
             <div class="card">
-                <img src="https://images.unsplash.com/photo-1678107381534-704944810793?w=600" alt="جبل الفيل الحقيقي في العلا">
+                <img src="https://i.imgur.com/uO6vO3m.jpg" alt="جبل الفيل الحقيقي في العلا">
                 <div class="card-content">
                     <h3>1. جبل الفيل (Elephant Rock)</h3>
                     <p>يعد جبل الفيل من أبرز العجائب الجيولوجية في العالم، وهو عبارة عن كتلة صخرية ضخمة يبلغ ارتفاعها حوالي 52 متراً. نحتتها عوامل الحت والتعرية والرياح على مدى ملايين السنين ليأخذ شكل فيل بخرطوم طويل ممتد إلى الأرض، ويحيط به جلسات صحراوية ساحرة.</p>
@@ -78,7 +78,7 @@
             </div>
 
             <div class="card">
-                <img src="https://images.unsplash.com/photo-1621245030249-166df047713d?w=600" alt="مدائن صالح الحجر">
+                <img src="https://i.imgur.com/TKeV961.jpg" alt="مدائن صالح الحجر">
                 <div class="card-content">
                     <h3>2. الحجر (مدائن صالح)</h3>
                     <p>موقع الحجر الأثري هو أول موقع في المملكة العربية السعودية يتم إدراجه ضمن قائمة التراث العالمي لليونسكو. يضم المقابر النبطية الضخمة المنحوتة بدقة داخل التشكيلات الصخرية، وأشهرها قصر الفريد الفريد من نوعه.</p>
@@ -86,7 +86,7 @@
             </div>
 
             <div class="card">
-                <img src="https://images.unsplash.com/photo-1683917454089-6fa6b21650b8?w=600" alt="بلدة العلا القديمة">
+                <img src="https://i.imgur.com/XF962Xf.jpg" alt="بلدة العلا القديمة">
                 <div class="card-content">
                     <h3>3. بلدة العلا القديمة</h3>
                     <p>تعتبر بلدة العلا القديمة بمثابة متحف مفتوح يروي تفاصيل الحياة التاريخية؛ حيث تتميز بمتاهة من الأزقة الضيقة والبيوت الطينية والحجرية المترابطة التي كان يسكنها أهالي العلا منذ القرن الثاني عشر الميلادي.</p>
@@ -94,15 +94,15 @@
             </div>
 
             <div class="card">
-                <img src="https://images.unsplash.com/photo-1655821737474-0f18bd89b1c9?w=600" alt="جبل عكمة النقوش الأثرية">
+                <img src="https://i.imgur.com/N6g0K3x.jpg" alt="جبل عكمة النقوش الأثرية">
                 <div class="card-content">
                     <h3>4. جبل عكمة (المكتبة المفتوحة)</h3>
                     <p>يُعرف جبل عكمة بـ "المكتبة المفتوحة" نظراً لأنه يضم أكبر تجمع للنقوش والمنحوتات الأثرية في شبه الجزيرة العربية على صخوره التاريخية، والتي توثق القوانين، والطقوس، والأنشطة اليومية للممالك القديمة.</p>
                 </div>
             </div>
 
-        </div> 
-</main>
+        </div>
+    </main>
 
 </body>
 </html>
