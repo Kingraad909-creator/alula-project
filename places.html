@@ -5,6 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>معالم العلا</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* تنسيق طوارئ مباشر لإجبار المتصفح على عرض الصور الحقيقية بالترتيب الصحيح */
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .card {
+            display: flex;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+            align-items: center;
+            direction: rtl;
+        }
+        .card img {
+            width: 40% !important;
+            height: 250px !important;
+            object-fit: cover !important;
+            display: block !important;
+        }
+        .card-content {
+            padding: 20px;
+            width: 60%;
+        }
+        .card-content h3 {
+            margin-top: 0;
+            color: #b37d4e;
+            font-size: 22px;
+        }
+        .card-content p {
+            color: #555;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+        @media (max-width: 768px) {
+            .card { flex-direction: column; }
+            .card img { width: 100% !important; height: 200px !important; }
+            .card-content { width: 100%; }
+        }
+    </style>
 </head>
 <body>
 
@@ -25,31 +70,39 @@
         <div class="gallery">
             
             <div class="card">
-                <img src="https://images.unsplash.com/photo-1628522934149-f542472d8fc8?auto=format&fit=crop&w=600&q=80" alt="جبل الفيل الحقيقي في العلا" style="width:100%; height:250px; object-fit:cover; border-radius: 8px;">
-                <h3>1. جبل الفيل (Elephant Rock)</h3>
-                <p>يعد جبل الفيل من أبرز العجائب الجيولوجية في العالم، وهو عبارة عن كتلة صخرية ضخمة يبلغ ارتفاعها حوالي 52 متراً تشبه الفيل بخرطوم ممتد إلى الأرض.</p>
+                <img src="https://images.unsplash.com/photo-1678107381534-704944810793?w=600" alt="جبل الفيل الحقيقي في العلا">
+                <div class="card-content">
+                    <h3>1. جبل الفيل (Elephant Rock)</h3>
+                    <p>يعد جبل الفيل من أبرز العجائب الجيولوجية في العالم، وهو عبارة عن كتلة صخرية ضخمة يبلغ ارتفاعها حوالي 52 متراً. نحتتها عوامل الحت والتعرية والرياح على مدى ملايين السنين ليأخذ شكل فيل بخرطوم طويل ممتد إلى الأرض، ويحيط به جلسات صحراوية ساحرة.</p>
+                </div>
             </div>
 
             <div class="card">
-                <img src="https://images.unsplash.com/photo-1506461883276-594a12b11cc3?auto=format&fit=crop&w=600&q=80" alt="مدائن صالح قصر الفريد" style="width:100%; height:250px; object-fit:cover; border-radius: 8px;">
-                <h3>2. الحجر (مدائن صالح)</h3>
-                <p>موقع الحجر الأثري هو أول موقع في المملكة العربية السعودية يتم إدراجه ضمن قائمة التراث العالمي لليونسكو، ويضم مقابر نبطية منحوتة بدقة في الصخر.</p>
+                <img src="https://images.unsplash.com/photo-1621245030249-166df047713d?w=600" alt="مدائن صالح الحجر">
+                <div class="card-content">
+                    <h3>2. الحجر (مدائن صالح)</h3>
+                    <p>موقع الحجر الأثري هو أول موقع في المملكة العربية السعودية يتم إدراجه ضمن قائمة التراث العالمي لليونسكو. يضم المقابر النبطية الضخمة المنحوتة بدقة داخل التشكيلات الصخرية، وأشهرها قصر الفريد الفريد من نوعه.</p>
+                </div>
             </div>
 
             <div class="card">
-                <img src="https://images.unsplash.com/photo-1681237300305-64506822c922?auto=format&fit=crop&w=600&q=80" alt="بلدة العلا القديمة" style="width:100%; height:250px; object-fit:cover; border-radius: 8px;">
-                <h3>3. بلدة العلا القديمة</h3>
-                <p>تعتبر بلدة العلا القديمة بمثابة متحف مفتوح يعود تاريخها إلى القرن الثاني عشر الميلادي، وتتميز بمتاهة من الأزقة الضيقة والبيوت الطينية التراثية.</p>
+                <img src="https://images.unsplash.com/photo-1683917454089-6fa6b21650b8?w=600" alt="بلدة العلا القديمة">
+                <div class="card-content">
+                    <h3>3. بلدة العلا القديمة</h3>
+                    <p>تعتبر بلدة العلا القديمة بمثابة متحف مفتوح يروي تفاصيل الحياة التاريخية؛ حيث تتميز بمتاهة من الأزقة الضيقة والبيوت الطينية والحجرية المترابطة التي كان يسكنها أهالي العلا منذ القرن الثاني عشر الميلادي.</p>
+                </div>
             </div>
 
             <div class="card">
-                <img src="https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=600&q=80" alt="جبل عكمة النقوش الأثرية" style="width:100%; height:250px; object-fit:cover; border-radius: 8px;">
-                <h3>4. جبل عكمة (المكتبة المفتوحة)</h3>
-                <p>يُعرف بجبل عكمة نظراً لأنه يضم أكبر تجمع للنقوش والمنحوتات الأثرية في شبه الجزيرة العربية التي توثق القوانين والطقوس للممالك القديمة.</p>
+                <img src="https://images.unsplash.com/photo-1655821737474-0f18bd89b1c9?w=600" alt="جبل عكمة النقوش الأثرية">
+                <div class="card-content">
+                    <h3>4. جبل عكمة (المكتبة المفتوحة)</h3>
+                    <p>يُعرف جبل عكمة بـ "المكتبة المفتوحة" نظراً لأنه يضم أكبر تجمع للنقوش والمنحوتات الأثرية في شبه الجزيرة العربية على صخوره التاريخية، والتي توثق القوانين، والطقوس، والأنشطة اليومية للممالك القديمة.</p>
+                </div>
             </div>
 
-        </div>
-    </main>
+        </div> 
+</main>
 
 </body>
 </html>
