@@ -1,72 +1,17 @@
-<!DOCTYPE HTML>
-<html lang="ar" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>معالم العلا</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        .alula-zone { display: flex; flex-direction: column; gap: 25px; padding: 20px; max-width: 900px; margin: 0 auto; }
-        .alula-box { display: flex !important; background: #ffffff !important; border-radius: 10px !important; box-shadow: 0 4px 12px rgba(0,0,0,0.08) !important; overflow: hidden !important; align-items: center !important; height: auto !important; width: 100% !important; margin-bottom: 15px !important; }
-        .alula-text { padding: 20px !important; width: 60% !important; height: auto !important; }
-        .alula-box img { width: 40% !important; height: 250px !important; object-fit: cover !important; display: block !important; }
-        .alula-text h3 { margin: 0 0 10px 0 !important; color: #b37d4e !important; font-size: 22px !important; }
-        .alula-text p { color: #555 !important; line-height: 1.6 !important; font-size: 16px !important; margin: 0 !important; white-space: normal !important; }
-        @media (max-width: 768px) {
-            .alula-box { flex-direction: column !important; }
-            .alula-box img { width: 100% !important; height: 200px !important; }
-            .alula-text { width: 100% !important; }
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <h1>معالم العلا</h1>
-        <p>أماكن مذهلة لا بد من زيارتها واكتشاف تاريخها</p>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="index.html">الرئيسية</a></li>
-            <li><a href="places.html" class="active">معالم العلا</a></li>
-            <li><a href="contact.html">تواصل معنا</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <div class="alula-zone">
-            
-            <div class="alula-box">
-                <div class="alula-text">
-                    <h3>1. جبل الفيل (Elephant Rock)</h3>
-                    <p>يعد جبل الفيل من أبرز العجائب الجيولوجية في العالم، وهو عبارة عن كتلة صخرية ضخمة يبلغ ارتفاعها حوالي 52 متراً تشبه الفيل بخرطوم ممتد إلى الأرض، ويحيط به جلسات صحراوية ساحرة.</p>
-                </div>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Elephant_Rock_Al-Ula.jpg/640px-Elephant_Rock_Al-Ula.jpg" alt="جبل الفيل">
-            </div>
-
-            <div class="alula-box">
-                <div class="alula-text">
-                    <h3>2. الحجر (مدائن صالح)</h3>
-                    <p>موقع الحجر الأثري هو أول موقع في المملكة العربية السعودية يتم إدراجه ضمن قائمة التراث العالمي لليونسكو، ويضم مقابر نبطية منحوتة بدقة في الصخر وأشهرها قصر الفريد.</p>
-                </div>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Hegra_Madain_Salih_Saudi_Arabia.jpg/640px-Hegra_Madain_Salih_Saudi_Arabia.jpg" alt="مدائن صالح">
-            </div>
-
-            <div class="alula-box">
-                <div class="alula-text">
+<div class="place-card">
+                <div class="place-info">
                     <h3>3. بلدة العلا القديمة</h3>
                     <p>تعتبر بلدة العلا القديمة بمثابة متحف مفتوح يعود تاريخها إلى القرن الثاني عشر الميلادي، وتتميز بمتاهة من الأزقة الضيقة والبيوت الطينية والتراثية وتضم قلعة موسى بن نصير.</p>
                 </div>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Old_town_al_ula.jpg/640px-Old_town_al_ula.jpg" alt="البلدة القديمة">
+                <img class="place-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Old_town_al_ula.jpg/640px-Old_town_al_ula.jpg" alt="البلدة القديمة">
             </div>
 
-            <div class="alula-box">
-                <div class="alula-text">
+            <div class="place-card">
+                <div class="place-info">
                     <h3>4. جبل عكمة (المكتبة المفتوحة)</h3>
                     <p>يُعرف بجبل عكمة نظراً لأنه يضم أكبر تجمع للنقوش والمنحوتات الأثرية في شبه الجزيرة العربية التي توثق القوانين والطقوس للممالك القديمة.</p>
                 </div>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Jabal_Ikmah_inscriptions.jpg/640px-Jabal_Ikmah_inscriptions.jpg" alt="جبل عكمة">
+                <img class="place-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Jabal_Ikmah_inscriptions.jpg/640px-Jabal_Ikmah_inscriptions.jpg" alt="جبل عكمة">
             </div>
 
         </div>
